@@ -7,4 +7,4 @@ total = 0
 for line in sys.stdin:
     total += 1
 
-print total
+print total/2
