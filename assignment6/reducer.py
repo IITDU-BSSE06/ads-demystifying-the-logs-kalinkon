@@ -11,7 +11,6 @@ for line in sys.stdin:
     timeAndDate = line.strip()
     
     if timeAndDate.find("2009"):
-	counter2009 = 20
 	counter2009 = counter2009+1 
     if timeAndDate.find("2010"):
 	counter2010 = counter2010+1
